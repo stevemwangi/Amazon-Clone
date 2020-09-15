@@ -1,11 +1,20 @@
-import React from 'react';  
+import React from 'react'; 
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'; 
+
+import Header from './components/header/Header';
+
 import './App.css';
 
 function App() {
   return (
-    <div className="app">   
-    <h1>Amazon Clone</h1>
-    </div>
+    <Router>
+      <div className="app">   
+      <Switch>
+        <Route path="/" component={Header} />
+        
+      </Switch>
+      </div>        
+    </Router>
   );
 }
 
