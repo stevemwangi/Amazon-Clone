@@ -8,7 +8,7 @@ function Home() {
         <div className="home">
             <img 
             className="home__image"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS3ch9sxcvmtXurMjNBCH7wpHZ0BaMk3logrQ&usqp=CAU"
+            src="https://netrockdeals.sirv.com/WP_netrockdeals.com/2020/04/H/o/1/How-to-Get-Amazon-Prime-Membership-For-Free-banner-min-1.jpg"
             alt=""
              />    
         <div className="home_row">        
@@ -60,7 +60,7 @@ function Home() {
             />     
         </div>              
         </div>
-    );
+    )
 }
 
 export default Home;
